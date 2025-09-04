@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"Message" : "The Message is from Environment " ++ (mule.env default "Dev/Test")  
+	"Message" : "The Message is from my pipeline POC and the Environment is " ++ (mule.env default "Dev/Test")  
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
