@@ -4,7 +4,7 @@
 
 	<groupId>497b2b02-8fba-457f-a9c2-79af014cfb6f</groupId>
 	<artifactId>hello-world</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>mule-application</packaging>
 
 	<name>hello-world</name>
@@ -38,7 +38,7 @@
                         <target>Cloudhub-US-East-2</target>
                         <server>Repository</server> <!-- this is where our credentials will be stored -->
                         <applicationName>${project.artifactId}</applicationName>
-						<releaseChannel>NONE</releaseChannel>
+			<releaseChannel>LTS</releaseChannel>
                         <replicas>1</replicas>
                         <vCores>0.1</vCores>
                         <deploymentSettings>
